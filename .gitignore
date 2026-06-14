@@ -1,0 +1,82 @@
+# Dependencias
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Variables de entorno
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Compilación TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Cobertura de pruebas
+coverage/
+
+# Caché
+.cache/
+.parcel-cache/
+
+# Archivos temporales
+tmp/
+temp/
+*.tmp
+
+# MongoDB
+data/
+*.wt
+*.ns
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# Configuración de JetBrains
+.idea/
+
+# Archivos de entorno Node
+.npm/
+.eslintcache
+
+# Archivos de pruebas
+jest-report/
+junit.xml
+
+# Docker
+.dockerignore
+
+# PM2
+pids/
+*.pid
+*.pid.lock
+
+# Archivos de certificados
+*.pem
+*.key
+*.crt
+
+# Dumps y backups
+*.bak
+*.backup
+*.sql
+
+# Archivos de subida temporales
+uploads/

@@ -1,0 +1,2 @@
+PORT=[aqui agregar el puerto]
+MONGO_URI=mongodb+srv://[agregar usuario]:[agregar contraseña del db]@[agregar cluster].txja5hb.mongodb.net/[agregar nombre de la db]?appName=[agregar cluster]
